@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header id="linkHeader">
+        <div class="menu container">
+            <a href="#" class="logo"><img src="images/logo-white.png" alt=""></a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu-btn.png" alt="" class="menu-icono" />
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#linkHeader">Inicio</a></li>
+                    <li><a href="#linkcategorias">Categorias</a></li>
+                    <li><a href="#linkarticulos">articulo</a></li>
+                    <li><a href="#linkContacto">Acerca de</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="content">
+                <h1>Articulos informaticos</h1>
+                <p>Encuentra interesantes artículos En la rama de la informática</p>
+                <!-- <a href="" class="btn-1">mas inforamacion</a>
+                <a href="" class="btn-1">mas inforamacion</a>
+                -->
+            </div>
+            <img src="images/img_heroSiin.png" alt="" />
+        </div>
+    </header>
+    <main class=" container" id="linkcategorias">
+        <div class="categorias">
+
+            <div class="categoria">
+                <img src="images/imgCat/logo_computacion.png" alt="" />
+                <h3>Computacion</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="categoria">
+                <img src="images/imgCat/Office_logo.png" alt="" />
+                <h3>Ofimatica</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="categoria">
+                <img src="images/imgCat/logo_programacion.png" alt="" />
+                <h3>Programacion</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="categoria">
+                <img src="images/imgCat/logo_new.png" alt="" />
+                <h3>Noticias</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            
+        </div>
+            
+            <section class="articulos container" id="linkarticulos">
+                <h3>Ultimos Articulos</h3>
+                <div class="articulo">
+            <img src="images/imgArticulos/visualCode.JPG" alt="" />
+            <div class="articulo-1">
+                <h3>Visual Studio Code</h3>
+                <p>
+                    Porque se considera unos de los mejores y más exitoso IDE para la programación en diferentes
+                    lenguajes de programación.
+                </p>
+                <a href="" class="btn-2">Leer más</a>
+            </div>
+        </div>
+        <div class="articulo">
+            <div class="articulo-2">
+                <h3>Excel</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+                    necessitatibus, nobis incidunt aperiam molestias eos?
+                </p>
+                <a href="articuloExcel.html" class="btn-2">Leer más</a>
+            </div>
+            <img src="images/imgArticulos/excel.jpg" />
+        </div>
+        <div class="articulo">
+            <img src="images/imgArticulos/word.png" alt="" />
+            <div class="articulo-1">
+                <h3>Word</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+                    necessitatibus, nobis incidunt aperiam molestias eos?
+                </p>
+                <a href="#" class="btn-2">Leer más</a>
+            </div>
+        </div>
+        <div class="articulo">
+            <div class="articulo-2">
+                <h3>Power point</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+                    necessitatibus, nobis incidunt aperiam molestias eos?
+                </p>
+                <a href="" class="btn-2">Leer más</a>
+            </div>
+            <img src="images/imgArticulos/powerpoint.png" alt="" />
+        </div>
+    </section>
+</main>
+    <footer id="linkContacto">
+        <div class="container">
+            <div class="info">
+                <div class="info-content">
+                    <div class="info-price">
+                        <h2>costo</h2>
+                        <p class="price">$3500</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, temporibus iste
+                            repudiandae doloribus aliquam minima esse inventore natus itaque.
+                        </p>
+                    </div>
+                    <div class="info-txt">
+                        <h2>Princing list</h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
+                            nobis dolorum fugiat, error inventore consectetur aut quisquam. Pariatur, distinctio eius!
+                        </p>
+                        <a href="#" class="btn-1">Informacion</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="enlaces">
+                    <img src="images/logo-white.png" alt="">
+                    <p>Copyright 2023</p>
+                    <div class="enlace">
+
+                        <li>
+                            <a href="#">
+                                <img class="icon" src="images/icon/icon-github.svg" alt="">
+                                GitHub
+                            </a>
+                        </li>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyArM5WTvTULuimU0AQsq1abyGsp6WUWFUY",
+            authDomain: "bloc-informatico-a9607.firebaseapp.com",
+            projectId: "bloc-informatico-a9607",
+            storageBucket: "bloc-informatico-a9607.appspot.com",
+            messagingSenderId: "396921339567",
+            appId: "1:396921339567:web:27dde41c1c8990a2445e5a",
+            measurementId: "G-WWEKSF6HLE",
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+    </script>
+
+    <script src="main.js" type="module"></script>
+
+</body>
+
+</html>
