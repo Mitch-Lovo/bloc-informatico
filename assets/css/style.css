@@ -85,7 +85,10 @@ header .menu .navbar ul li a {
   display: block;
 }
 header .menu .navbar ul li a:hover {
-  color: rgba(243, 201, 14, 0.8470588235);
+  color: #edf942;
+  box-shadow: 0 5px 5px rgba(0, 26, 97, 0.071);
+  border-radius: 10px;
+  font-size: 18.2px;
 }
 header .header-content {
   display: flex;

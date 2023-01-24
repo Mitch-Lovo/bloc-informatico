@@ -3,31 +3,34 @@
 
 <head>
     <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./assets/css/styleArticulos.css" rel="stylesheet" />
     <title>Excel</title>
 </head>
 
 <body>
     <header id="linkHeader">
         <div class="menu container">
-            <a href="#" class="logo"><img src="images/logo-white.png" alt=""></a>
-            <input type="checkbox" id="menu" />
-            <label for="menu">
-                <img src="images/menu-btn.png" alt="" class="menu-icono" />
-            </label>
+            <div class="men">
 
-            <nav class="navbar">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="#linkcategorias">Categorias</a></li>
-                    <li><a href="#linkarticulos">articulo</a></li>
-                    <li><a href="#linkContacto">Contacto</a></li>
-                </ul>
-            </nav>
+                <a href="#" class="logo"><img src="./assets/images/logo-white.png" alt="" /></a>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="./assets/images/menu-btn.png" alt="" class="menu-icono" />
+                </label>
+    
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html#linkcategorias">Categorias</a></li>
+                        <li><a href="#linkarticulos">articulo</a></li>
+                        <li><a href="#linkContacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="header-content-articulo container">
+        <div class="header-content container">
             <div class="content">
                 <h1>Excel y sus configuraciones basicas</h1>
                 <p>Las configuraciones basicas de excel que todos debemos saber</p>
@@ -35,44 +38,70 @@
                     <a href="" class="btn-1">mas inforamacion</a>
                     -->
             </div>
-            <img src="images/imgArticulos/excel.jpg" alt="" />
+            <img src="./assets/images/imgArticulos/excel.jpg" alt="" />
         </div>
     </header>
+    <div class="principal container">
+        
+        <main class="content-main ">
+            <div class="content-article">
+                <h1 id="introduccion">Introduccion</h1>
+                <p>
+                    En este capítulo, iniciaremos con una Introducción a Excel a detalle. Los puntos marcados en este artículo te serán de gran utilidad para la mayoría de las versiones. En caso de que haya algún cambio a tomar en cuenta, haremos la observación correspondiente.
+                </p>
+                <h2 id="excel">¿Qué es Excel?</h2>
+                <p>
+                   <span> Microsoft Excel</span>, es una herramienta muy eficaz, fácil de uti­lizar, que le permite al usuario crear, personalizar y administrar; fá­cil y rápidamente archivos de trabajo, siendo esta una herramienta ampliamente utilizada.
+                </p>
+                <p>
+                    Este software que pertenece a la suite de Office permite crear tablas, calcular y analizar datos. Es comúnmente denominado software de hoja de cálculo.
+                </p>
+                <h2 id="versiones">¿Cuáles son las versiones de Excel que existen?</h2>
+                <p>
+                    Como te lo comenté más arriba, Excel pertenece a la suite de <span> Microsoft Office</span>, de la cual se han lanzado al mercado varias versiones.
+                </p>
+                <p>
+                    Excel ha estado presente prácticamente desde 1990, sin embargo, las versiones que aún siguen vigentes son 2007, 2010, 2013, office 365, 2016 y 2019
+                </p>
+                <img src="./assets/images/imgArticulos/artExcel1/versiones-de-excel.jpg" alt="">
+                <h2 id="sirve">¿Para qué me sirve Excel?</h2>
+                <p>
+                    En Excel podrás crear tablas que calculan de forma automática los totales de los valores numéricos que especifiques, imprimir tablas con diseños cuidados, y crear gráficos.
+                <p>
+                    Utilizando esta herramienta los usuarios podrán realizar un análisis detallado de información gracias a la facilidad de aplicar diferentes fun­ciones al trabajo y hacerlo con mayor versatilidad, también se cuenta con un amplio número de fórmulas facilitando con esto, el poder trabajar con gran cantidad de da­tos, obteniendo cálculos rápidos mediante una hojas de cálculo con densas fórmulas, también permite crear gráficos de aspecto profesional con rapidez y comodidad, con posibilidad de enriquecerlos aplicando me­joras visuales y variedad de efectos.
+                </p>
+                <img src="./assets/images/imgArticulos/artExcel1/analisis-de-datos-ejemplo.jpg" alt="">
+                <h2 id="laboral">Excel en el campo laboral</h2>
+                <p>
+                    Aprender a manejar Excel te ayudará a mejorar tu productividad, sobre todo si te desenvuelves en áreas que involucren: Matemáticas, Contabilidad, Cálculos financieros o estadística, solo por mencionar unos ejemplos.
+                </p>
+                <p>
+                    Ahora que ya conociste una breve introducción a Excel, es momento que aprendas <a href="#">como descargar e instalar Excel</a> en tu equipo.
+                </p>
+                </div>
+                <div class="creditos">
+                    <p>enero 23, 2023 - Ofimatica</p>
+                </div>
+        </main>
+        <aside>
 
-    <main class="content-main container">
-        <div class="content-article">
-            <p>
-                Todos los documentos de oficina comienzan con una plantilla, que puede ser tan simple como una página en
-                blanco de tamaño estándar o tan compleja como un documento casi completo con texto, gráficos y otro
-                contenido. Por ejemplo, una plantilla de "Actas de reunión" podría incluir encabezados para información
-                relevante para una reunión de negocios, como "Acciones" encima de una tabla con filas para indicar la
-                hora y columnas para las acciones de la reunión. Debido a que las plantillas proporcionan el punto de
-                partida para tantos documentos, la accesibilidad es fundamental. Si no está seguro de si se puede
-                acceder a una plantilla, debe consultar un documento de muestra producido cuando se utiliza la plantilla
-                (consulte la Técnica 11 , a continuación).
-                La plantilla predeterminada de Excel para documentos nuevos es una página en blanco. La instalación
-                básica también incluye otros documentos en blanco relacionados con la oficina. Todos estos son
-                accesibles en virtud de estar en blanco.
+            <div class="categorias">
+                <p>Contenido</p>
+                <ul>
+                    <li><a href="#introduccion">-Introduccion</a></li>
+                    
+                    <li><a href="#excel">-¿Qué es Excel?</a></li>
+                    
+                    <li><a href="#versiones">-¿Cuáles son las versiones de Excel que existen?</a> </li>
+                    
+                    <li><a href="#sirve">-¿Para qué me sirve Excel?</a></li>
+                
+                    <li><a href="#laboral">-Excel en el campo laboral</a></li>
+                </ul>
 
-                Es posible crear sus propias plantillas accesibles desde cero en Excel. También puede editar y modificar
-                las plantillas preempaquetadas existentes, asegurando su accesibilidad mientras lo hace y guardándolas
-                como una nueva plantilla.
-
-                Cómo crear una plantilla accesible
-                Crear un nuevo documento.
-                Asegúrese de seguir las técnicas de este documento.
-                Cuando haya terminado, también debe verificar la accesibilidad del documento (consulte la Técnica 11 , a
-                continuación).
-                Vaya al elemento del menú: Archivo > Guardar como
-                En la lista Guardar como tipo , seleccione Plantilla de Excel
-                En el cuadro Nombre de archivo , escriba un nombre para la plantilla. El uso de un nombre de archivo
-                descriptivo (p. ej., "Plantilla de inventario accesible") aumentará la importancia del estado de
-                accesibilidad. Además, completar el cuadro de texto etiquetado Etiquetas con el término "accesibilidad"
-                mejorará su capacidad de búsqueda como un archivo accesible.
-                Seleccione Guardar .
-            </p>
-        </div>
-    </main>
+            </div>
+        </aside>
+    </div>
 </body>
 
 </html>
