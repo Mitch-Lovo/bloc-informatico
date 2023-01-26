@@ -1,0 +1,37 @@
+{
+    "titulo": "Excel y sus configuraciones basicas",
+    "subtitulo": "Las configuraciones basicas de excel que todos debemos saber",
+    "idCategorias": "-NMgOerJXCTVQKUKHmAn",
+    "img": "./assets/images/imgArticulos/excel.jp",
+    "fechaCreacion": "enero 23, 2023",
+    "contenido": {
+        "introduccion": " En este capítulo, iniciaremos con una Introducción a Excel a detalle. Los puntos marcados en este artículo te serán de gran utilidad para la mayoría de las versiones. En caso de que haya algún cambio a tomar en cuenta, haremos la observación correspondiente.",
+        "palabraClave0": "introduccion",
+        "subtitle1": "¿Qué es Excel?",
+        "palabraClave1": "excel",
+        "parrafos1": {
+            "p1": "<span> Microsoft Excel</span>, es una herramienta muy eficaz, fácil de utilizar, que le permite al usuario crear, personalizar y administrar; fácil y rápidamente archivos de trabajo, siendo esta una herramienta ampliamente utilizada.",
+            "p2": "Este software que pertenece a la suite de Office permite crear tablas, calcular y analizar datos. Es comúnmente denominado software de hoja de cálculo."
+        },
+        "subtitle2": "¿Cuáles son las versiones de Excel que existen?",
+        "palabraClave2": "versiones",
+        "parrafos2": {
+            "p1": "Como te lo comenté más arriba, Excel pertenece a la suite de <span> Microsoft Office</span>, de la cual se han lanzado al mercado varias versiones.",
+            "p2": "Excel ha estado presente prácticamente desde 1990, sin embargo, las versiones que aún siguen vigentes son 2007, 2010, 2013, office 365, 2016 y 2019",
+            "img": "./assets/images/imgArticulos/artExcel1/versiones-de-excel.jpg"
+        },
+        "subtitle3": "¿Para qué me sirve Excel?",
+        "palabraClave3": "sirve",
+        "parrafos3": {
+            "p1": "En Excel podrás crear tablas que calculan de forma automática los totales de los valores numéricos que especifiques, imprimir tablas con diseños cuidados, y crear gráficos.",
+            "p2": "Utilizando esta herramienta los usuarios podrán realizar un análisis detallado de información gracias a la facilidad de aplicar diferentes fun­ciones al trabajo y hacerlo con mayor versatilidad, también se cuenta con un amplio número de fórmulas facilitando con esto, el poder trabajar con gran cantidad de da­tos, obteniendo cálculos rápidos mediante una hojas de cálculo con densas fórmulas, también permite crear gráficos de aspecto profesional con rapidez y comodidad, con posibilidad de enriquecerlos aplicando mejoras visuales y variedad de efectos.",
+            "img": "./assets/images/imgArticulos/artExcel1/analisis-de-datos-ejemplo.jpg"
+        },
+        "subtitle4": "Excel en el campo laboral",
+        "palabraClave4": "laboral",
+        "parrafos4": {
+            "p1": "Aprender a manejar Excel te ayudará a mejorar tu productividad, sobre todo si te desenvuelves en áreas que involucren: Matemáticas, Contabilidad, Cálculos financieros o estadística, solo por mencionar unos ejemplos.",
+            "p2": "Ahora que ya conociste una breve introducción a Excel, es momento que aprendas <a href='#'>como descargar e instalar Excel</a> en tu equipo."
+        }
+    }
+}

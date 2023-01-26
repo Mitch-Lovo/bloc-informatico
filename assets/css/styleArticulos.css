@@ -256,7 +256,15 @@ html body .principal aside .categorias ul li a {
   }
   html body .principal main .content-article h1 {
     text-align: center;
+    font-size: 30px;
+  }
+  html body .principal main .content-article h2 {
+    text-align: center;
     font-size: 25px;
+  }
+  html body .principal main .content-article p {
+    font-size: 22px;
+    line-height: 35px;
   }
   html body .principal aside {
     margin-top: -240px;
